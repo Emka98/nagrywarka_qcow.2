@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#clikDiscChoiceBox" prefHeight="300.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.nagrywarka.Controller">
+   <children>
+      <Button id="runButton" fx:id="runButton" layoutX="251.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleRun" prefHeight="57.0" prefWidth="139.0" text="Run" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="210.0" />
+      <CheckBox id="clearCheckBox" fx:id="clearCheckBox" layoutX="268.0" layoutY="115.0" mnemonicParsing="false" text="Clear" AnchorPane.bottomAnchor="160.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="120.0" />
+      <CheckBox id="recordCheckBox" fx:id="recordCheckBox" layoutX="269.0" layoutY="150.0" mnemonicParsing="false" text="Recod" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="150.0" />
+      <Label id="discLabel" fx:id="discLabel" alignment="CENTER" layoutX="260.0" layoutY="70.0" prefHeight="18.0" prefWidth="150.0" text="Disc" AnchorPane.bottomAnchor="210.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="70.0" />
+      <Label id="distributionLabel" fx:id="distributionLabel" alignment="CENTER" layoutX="40.0" layoutY="70.0" prefHeight="18.0" prefWidth="150.0" text="Distribution" textAlignment="CENTER" AnchorPane.bottomAnchor="210.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="70.0" />
+      <ProgressIndicator id="progresBar" fx:id="progresBar" layoutX="14.0" layoutY="108.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="153.0" prefWidth="219.0" progress="0.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="110.0" />
+      <ChoiceBox id="distributionCheckBox" fx:id="distributionChoiceBox" layoutX="66.0" layoutY="46.0" onMouseClicked="#clikDistributionCheckBox" prefHeight="42.0" prefWidth="150.0" AnchorPane.bottomAnchor="230.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="40.0" />
+      <ChoiceBox id="discCheckBox" fx:id="discChoiceBox" layoutX="256.0" layoutY="46.0" onMouseClicked="#clikDiscChoiceBox" prefHeight="42.0" prefWidth="150.0" AnchorPane.bottomAnchor="230.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="40.0" />
+   </children>
+</AnchorPane>
